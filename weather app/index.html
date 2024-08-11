@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="app">
+        <div class="sidebar">
+            <ul>
+                <li><i class="fas fa-cloud-sun"></i></li>
+                <li><i class="fas fa-city"></i></li>
+                <li><i class="fas fa-map-marked-alt"></i></li>
+                <li><i class="fas fa-cog"></i></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="search-bar">
+                <input type="text" id="cityInput" placeholder="Search for cities">
+            </div>
+            <div class="current-weather">
+                <div class="current-temp">
+                    <h1 id="cityName">Madrid</h1>
+                    <p id="weatherDesc">Chance of rain: 0%</p>
+                    <h2 id="temperature">31°</h2>
+                </div>
+                <div class="weather-icon">
+                    <img id="weatherIcon" src="pngtree-realistic-sun-3d-icon-render-png-image_8734888.png" alt="Weather Icon">
+                </div>
+            </div>
+            <div class="forecast">
+                <h3>Today's Forecast</h3>
+                <div id="todayForecast">
+                    <!-- Forecast details go here -->
+                </div>
+            </div>
+            <div class="air-conditions">
+                <h3>Air Conditions</h3>
+                <div id="airConditions">
+                </div>
+            </div>
+        </div>
+        <div class="seven-day-forecast">
+            <h3>7-Day Forecast</h3>
+            <div id="weeklyForecast">
+            </div>
+        </div>
+    </div>
+ 
+   
+</body>
+</html>
