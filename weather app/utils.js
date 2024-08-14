@@ -4,7 +4,7 @@ async function getCoordinates(city) {
         throw new Error('Geocoding data could not be fetched');
     }
     const data = await response.json();
-    if (data.results.length > 0) {
+    if (data.res.length > 0) {
         return {
             lat: data.results[0].geometry.lat,
             lon: data.results[0].geometry.lng
