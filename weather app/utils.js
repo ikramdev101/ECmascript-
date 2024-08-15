@@ -1,5 +1,5 @@
 async function getCoordinates(city) {
-    const response = await fetch(`https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(city)}&key=${apiy}`);
+    const response = await fetch(`https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(city)}&key=${apikey}`);
     if (!response.ok) {
         throw new Error('Geocoding data could not be fetched');
     }
