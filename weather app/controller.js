@@ -1,4 +1,4 @@
-ort{ getCoordinates } from 'utils.js'; 
+import{ getCoordinates } from 'utils.js'; 
 
 class WeatherController {
     constructor(model, view) {
