@@ -16,7 +16,7 @@ class WeatherController {
         const city = document.getElementById("cityInput").value;
         if (city) {
             try {
-                console.log('Fetching coordinates for:', city);
+                console.log(' coordinates for:', city);
                 const { lat, lon } = await getCoordinates(city);
                 console.log('Coordinates:', lat, lon);
                 console.log('Fetching weather data for coordinates:', lat, lon);
