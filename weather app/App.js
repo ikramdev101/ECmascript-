@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const model = WeatherModel();
+    const model =  new WeatherModel();
     const view = new WeatherView();
     const controller = new WeatherController(model, view);
 });
