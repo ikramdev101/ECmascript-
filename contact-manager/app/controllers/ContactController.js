@@ -1,4 +1,3 @@
-import Contact from '../models/Contact.js';
 import ContactView from '../views/ContactView.js';
 
 export default class ContactController {
